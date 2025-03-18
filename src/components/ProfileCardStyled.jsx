@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 const Card = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color:  #f5f5f5;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -30,7 +33,7 @@ const Button = styled.button`
     background-color: #1976d2;
     color: white;
     width: 120px;
-    border-right: 4px;
+    border-radius: 4px;
     padding: 8px 15px;
     margin-bottom: 20px;
     border: none;
